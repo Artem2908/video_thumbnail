@@ -1,3 +1,12 @@
+## Unreleased
+
+* Add iOS Swift Package Manager support with the `video-thumbnail` product,
+  FlutterFramework and source-built libwebp 1.6.0.
+* Share Objective-C sources between SPM and CocoaPods; retain the CocoaPods
+  libwebp dependency, registration, MethodChannel and JPEG/PNG/WebP Dart API.
+* Require Flutter >=3.41 and Dart >=3.11; the SPM target requires iOS >=13.
+* Document dependency manager setup and libwebp licensing.
+
 ## 0.5.6
 * Actually add the namespace fix for Android
 * Bump to 0.5.6
